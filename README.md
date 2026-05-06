@@ -8,6 +8,10 @@
 
 
 
+![fig1](./assets/figures/fig1.png)
+
+
+
 ## 🤖 1. Example
 
 ### 🗓️ 1.1 Single Task
