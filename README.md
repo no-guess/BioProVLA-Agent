@@ -28,3 +28,10 @@ An Affordable, Protocol-Driven, Vision-Enhanced VLA-Enabled Embodied Multi-Agent
 | <img src="./assets/gifs/Unscrew_centrifuge_tube_cap.gif" alt="Unscrew_centrifuge_tube_cap" style="width: 500px;height: 220px" /> | <img src="./assets/gifs/Liquid_Waste_Pouring.gif" alt="Liquid_Waste_Pouring" style="width: 500px;height: 220px" /> | <img src="./assets/gifs/Tighten_centrifuge_cap.gif" alt="Tighten_centrifuge_cap" style="width: 500px;height: 220px" /> |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
+### 🗓️ 1.3 Composite Task
+
+| [Watch the double-arm task demo](.assets/videos/single_arm_1.mp4) | [Watch the double-arm task demo](.assets/videos/single_arm_2.mp4) | [Watch the double-arm task demo](.assets/videos/single_arm_3.mp4) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [Watch the double-arm task demo](.assets/videos/single_arm_4.mp4) | [Watch the double-arm task demo](.assets/videos/single_arm_5.mp4) | [Watch the double-arm task demo](.assets/videos/single_arm_6.mp4) |
+| [Watch the double-arm task demo](.assets/videos/double_arm_1.mp4) |                                                              |                                                              |
+
