@@ -2,7 +2,7 @@
 
 An Affordable, Protocol-Driven, Vision-Enhanced VLA-Enabled Embodied Multi-Agent System with Closed-Loop-Capable Reasoning for Biological Laboratory Manipulation
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://doi.org/10.48550/arXiv.2605.07306)
+[![Paper](https://img.shields.io/badge/Paper-arXiv-red)]()
 
 [![Code](https://img.shields.io/badge/Code-GitHub-black)](https://github.com/no-guess/BioProVLA-Agent)
 
