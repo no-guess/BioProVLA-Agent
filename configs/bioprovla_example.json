@@ -1,0 +1,54 @@
+{
+  "protocol_text": "",
+  "api_credentials": {
+    "llm_api_key": null,
+    "llm_api_root": "https://cloud.fastgpt.cn/api",
+    "vlm_api_key": null,
+    "vlm_base_url": "https://cloud.fastgpt.cn/api/v1"
+  },
+  "model_config": {
+    "llm_model": "qwen3.5-plus",
+    "vlm_model": "qwen-vl-plus",
+    "vla_policy_path": ""
+  },
+  "robot_config": {
+    "infer_cli_args": [
+      "--robot.type=so101_follower",
+      "--robot.port=/dev/ttyACM0",
+      "--robot.id=my_awesome_follower_arm",
+      "--robot.cameras={ handeye: {type: opencv, index_or_path: 0, width: 640, height: 480, fps: 30}, front: {type: opencv, index_or_path: 2, width: 640, height: 480, fps: 30}}",
+      "--policy.path=/path/to/your/smolvla/checkpoint/pretrained_model",
+      "--rename_map={\"observation.images.front\": \"observation.images.camera1\", \"observation.images.handeye\": \"observation.images.camera2\"}",
+      "--fps=30",
+      "--task_time_s=300",
+      "--reset_time_s=5",
+      "--display_data=true",
+      "--policy.device=cuda",
+      "--policy.use_amp=true"
+    ]
+  },
+  "knowledge_base_config": {
+    "completion_rag_index_path": "/path/to/your/BioRobo-MVKB/img_index",
+    "mock_kb": false,
+    "rag_completion_enabled": false,
+    "rag_precondition_enabled": false,
+    "precondition_rag_index_path": null
+  },
+  "execution_config": {
+    "mode": "real",
+    "max_parse_retries": 2,
+    "max_precondition_verify_retries": 2,
+    "max_completion_verify_retries": 2,
+    "max_vla_retries": 2,
+    "max_reorder_attempts": 3,
+    "max_precondition_recovery_loops": 24,
+    "prompt_human_on_failure": false,
+    "wait_enter_on_precondition_stall": true,
+    "run_dir": null,
+    "vla_task_time_s": 300.0,
+    "vla_fps": 30,
+    "save_images": true,
+    "vlm_scene_image_source": "raw_front",
+    "vlm_raw_camera_name": "front"
+  }
+}
