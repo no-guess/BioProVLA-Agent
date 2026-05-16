@@ -53,7 +53,7 @@ conda activate BioProVLA-Agent
 
 ## 🤖 3. BioProVLA-Agent
 
-### ✏️ 3.1 **Prepare the environment **
+### ✏️ 3.1 Prepare the environment
 
 ```cmd
 # Install the direct dependencies required by BioProVLA-Agent:
